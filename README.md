@@ -10,15 +10,15 @@ All screenshots are the running UI at 1920px on Windows. The artwork is the bund
 
 | Home (empty state) | Conversation |
 | --- | --- |
-| ![Home](assets/screenshots/hero.webp) | ![Conversation](assets/screenshots/conversation.webp) |
+| ![Home](https://gcore.jsdelivr.net/gh/19074523894/-@main/assets/screenshots/hero.webp) | ![Conversation](https://gcore.jsdelivr.net/gh/19074523894/-@main/assets/screenshots/conversation.webp) |
 
 | Trajectory view | Settings |
 | --- | --- |
-| ![Trajectory](assets/screenshots/trajectory.webp) | ![Settings](assets/screenshots/settings.webp) |
+| ![Trajectory](https://gcore.jsdelivr.net/gh/19074523894/-@main/assets/screenshots/trajectory.webp) | ![Settings](https://gcore.jsdelivr.net/gh/19074523894/-@main/assets/screenshots/settings.webp) |
 
 The palette is applied through DSH theme tokens, so other client plugins rendered in the same page inherit it. The customer-service panel below is a separate plugin, included only to show that it picks up the same surfaces:
 
-![Customer service panel](assets/screenshots/customer-panel.webp)
+![Customer service panel](https://gcore.jsdelivr.net/gh/19074523894/-@main/assets/screenshots/customer-panel.webp)
 
 ## What it changes
 
