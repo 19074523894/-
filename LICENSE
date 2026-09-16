@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2026 chenfengyuan
+Copyright (c) 2026 dsh-skin-avemujika contributors
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -19,3 +19,12 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+The MIT license above covers the source code only.
+
+The bundled artwork (assets/bg-avemujika.png) is fan art of Ave Mujica /
+BanG Dream! and is NOT covered by the MIT license. It is distributed as
+non-commercial fan work: personal use and sharing are fine, sale or inclusion
+in a commercial product is not. Character and franchise rights remain with
+their respective owners. Replace the asset if you need commercial terms.
+See README.md.

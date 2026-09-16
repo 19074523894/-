@@ -1,0 +1,8 @@
+# Ave Mujika Gothic Skin — DSH official plugin shape
+# Registered into the web profile plugin roster via bundle patch.
+# Skin mutual-exclusion is managed by skin-manager through home-layer
+# `disabled: true/false` rows in ~/.dsh/cordis.patch.yml.
+
+- insert:
+    - id: ui-skin-avemujika
+      name: 'dsh-skin-avemujika'

@@ -1,0 +1,61 @@
+{
+  "name": "dsh-skin-avemujika",
+  "version": "1.0.0",
+  "description": "Ave Mujika dark skin for DeepSeek Harness (DSH): full-bleed artwork, frosted rail, translucent composer and a tuned dark palette. Also packaged as a Codex skill.",
+  "type": "module",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js"
+  },
+  "files": [
+    "lib",
+    "assets",
+    "skin.json",
+    "cordis.patch.yml",
+    "README.md",
+    "SKILL.md"
+  ],
+  "scripts": {
+    "build": "npm run build:host && npm run build:types && npm run build:client && npm run wrap:client",
+    "build:host": "esbuild src/index.ts --bundle --format=esm --outfile=lib/index.js --platform=node --external:@deepseek-ai/cordis --external:node:*",
+    "build:types": "tsc --emitDeclarationOnly --declaration --outDir lib",
+    "build:client": "esbuild src/client.ts --bundle --format=cjs --outfile=lib/client.cjs --platform=browser --loader:.png=dataurl",
+    "wrap:client": "node scripts/wrap-client.mjs",
+    "test:runtime": "node scripts/runtime-smoke.mjs",
+    "dev": "esbuild src/index.ts --bundle --format=esm --outfile=lib/index.js --platform=node --external:@deepseek-ai/cordis --external:node:* --watch",
+    "verify": "node scripts/verify.mjs"
+  },
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-skin",
+    "skin",
+    "theme",
+    "ave-mujika",
+    "bang-dream",
+    "codex-skill"
+  ],
+  "license": "MIT",
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-theme"
+      ]
+    }
+  },
+  "dependencies": {
+    "@deepseek-ai/cordis": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.2",
+    "esbuild": "^0.28.2",
+    "typescript": "^5.5.0"
+  }
+}

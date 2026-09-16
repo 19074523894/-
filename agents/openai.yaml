@@ -1,0 +1,8 @@
+interface:
+  display_name: "DSH Ave Mujika Skin"
+  short_description: "Install or tune the Ave Mujika dark skin for DeepSeek Harness"
+  brand_color: "#C6DBEA"
+  default_prompt: "Use $dsh-skin-avemujika to install the Ave Mujika skin into my local DSH web profile."
+
+policy:
+  allow_implicit_invocation: true

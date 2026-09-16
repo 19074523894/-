@@ -1,0 +1,52 @@
+{
+  "wiring": {
+    "id": "ui-skin-avemujika"
+  },
+  "name": "Ave Mujika",
+  "nameZh": "Ave Mujika 冷灰主题",
+  "description": "Ave Mujika 深色皮肤：全幅背景立绘、近乎全透明的磨砂侧栏、半透明输入区，以及被钉在深色分支上的整套调色板。同时作为 Codex skill 分发。",
+  "bodyAttr": "data-dsh-avemujika",
+  "darkThemeAttr": "data-ds-dark-theme",
+  "accent": "#c6dbea",
+  "accentSecondary": "#8faec2",
+  "palette": {
+    "bgBase": "rgba(8, 16, 26, 0.30)",
+    "bgLayer1": "rgba(10, 20, 31, 0.34)",
+    "bgLayer2": "rgba(14, 25, 37, 0.52)",
+    "bgModulePlatform": "rgba(14, 24, 36, 0.50)",
+    "sidebarFill": "rgba(7, 18, 29, 0.04)",
+    "composerActiveFill": "rgba(26, 38, 52, 0.58)",
+    "composerCardFill": "rgba(12, 18, 26, 0.10)",
+    "railBorder": "rgba(214, 231, 242, 0.62)",
+    "dashedBorder": "rgba(214, 230, 240, 0.42)",
+    "sendButtonFill": "rgba(158, 173, 185, 0.55)",
+    "textPrimary": "#dce8f1",
+    "textSecondary": "#b9cbd8",
+    "textTertiary": "#8fa3b2",
+    "textCaption": "#8296a5",
+    "textDimmed": "#6f8391"
+  },
+  "effects": {
+    "railBlur": "3px",
+    "composerBlur": "5px",
+    "composerBlurActive": "5px"
+  },
+  "assets": {
+    "background": "assets/bg-avemujika.png",
+    "backgroundTuning": "luminance zones 89/92/88 mirrored and composited into the PNG; no runtime filter"
+  },
+  "platform": {
+    "verifiedAgainst": "dsh 0.1.2-rc.1",
+    "profile": "web"
+  },
+  "order": 6,
+  "tags": [
+    "dark",
+    "frosted",
+    "anime",
+    "ave-mujika",
+    "bang-dream",
+    "codex-skill"
+  ],
+  "version": "1.0.0"
+}
