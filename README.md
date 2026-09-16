@@ -20,18 +20,6 @@ The palette is applied through DSH theme tokens, so other client plugins rendere
 
 ![Customer service panel](https://gcore.jsdelivr.net/gh/19074523894/-@main/assets/screenshots/customer-panel.webp)
 
-## What it changes
-
-| Surface | Effect |
-| --- | --- |
-| App shell | `_frame` / `_root` / `_page` layers cleared so the artwork shows through |
-| Sidebar rail | 4% fill with a 3px backdrop blur and a 1px right border |
-| Composer | 58% fill with a 5px backdrop blur; opaque mask only while a conversation is active |
-| Hero title | DSH's own 26px/500 scale, softened tone, "preview" badge removed |
-| Typography | `--dsw-font-family` overridden (Segoe UI + DengXian on Windows) |
-| Palette | 80+ tokens pinned to one dark branch, fonts included, via `data-ds-dark-theme` |
-| Trajectory view | Inner surfaces cleared and re-tinted so the view stops reading as a grey slab |
-
 ## Install
 
 ```bash
@@ -79,10 +67,13 @@ Verified against DSH `0.1.2-rc.1` on Windows. DSH compiles its component classes
 
 ## Licensing
 
-Two different things live in this repository and they are licensed separately.
+This repository is licensed under **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International** (CC BY-NC-SA 4.0). The full legal text is in [LICENSE](LICENSE).
 
-**Code** - MIT, see [LICENSE](LICENSE). Use it, fork it, ship it, including commercially.
+What that means in practice:
 
-**Artwork** - `assets/bg-avemujika.png` is fan art of Ave Mujica / BanG Dream! and is **not** covered by the MIT license. It is distributed as non-commercial fan work: use it personally, share it, retheme the rest of the skin around it. Do not sell it, bundle it into a paid product, or use it in advertising. Character, franchise and original artwork rights remain with their respective owners.
+- **Non-commercial only.** Personal, educational and other non-commercial use, modification and sharing are allowed. Selling it, shipping it inside a paid product, or monetising it through advertising is not.
+- **Attribution.** Credit the author and link back to this repository, and state whether you changed anything.
+- **Share-alike.** A modified version you publish must carry the same license. It cannot be relicensed more permissively.
+- **Commercial use needs written permission** from the author.
 
-If you want to use this skin commercially, replace the background asset with artwork you own or have licensed and keep everything else.
+The license covers the code and the bundled artwork together. `assets/bg-avemujika.png` is fan art of Ave Mujica / BanG Dream! - character and franchise rights remain with their respective owners, and nothing here grants rights to those characters.
