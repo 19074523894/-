@@ -77,3 +77,11 @@ What that means in practice:
 - **Commercial use needs written permission** from the author.
 
 The license covers the code and the bundled artwork together. `assets/bg-avemujika.png` is fan art of Ave Mujica / BanG Dream! - character and franchise rights remain with their respective owners, and nothing here grants rights to those characters.
+
+## Credits and takedown
+
+`assets/bg-avemujika.png` is fan art of Ave Mujica / BanG Dream!. The characters, the franchise and the original artwork belong to their respective rights holders. This project claims no rights to them, is not affiliated with them, and is not endorsed by them.
+
+The image is bundled for non-commercial fan use only and was not supplied under a licence from the rights holders. If you hold the rights to it and want it removed, open an issue on this repository and it will be taken down promptly.
+
+The code does not depend on this particular image. `assets/bg-avemujika.png` is a standalone source file that the build inlines into the client bundle, so removing or replacing it means swapping that one file and re-running `npm run build` - no source changes needed.
