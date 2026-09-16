@@ -4,6 +4,22 @@ An Ave Mujika dark skin for [DeepSeek Harness](https://github.com/deepseek-ai) (
 
 The skin replaces DSH's opaque chrome with the artwork itself: a full-bleed background, a frosted rail whose surface is nearly transparent, a translucent composer, and a dark palette that stays consistent no matter which theme the app thinks it is in.
 
+## Screenshots
+
+All screenshots are the running UI at 1920px on Windows. The artwork is the bundled background; every panel over it is translucent rather than painted on.
+
+| Home (empty state) | Conversation |
+| --- | --- |
+| ![Home](assets/screenshots/hero.webp) | ![Conversation](assets/screenshots/conversation.webp) |
+
+| Trajectory view | Settings |
+| --- | --- |
+| ![Trajectory](assets/screenshots/trajectory.webp) | ![Settings](assets/screenshots/settings.webp) |
+
+The palette is applied through DSH theme tokens, so other client plugins rendered in the same page inherit it. The customer-service panel below is a separate plugin, included only to show that it picks up the same surfaces:
+
+![Customer service panel](assets/screenshots/customer-panel.webp)
+
 ## What it changes
 
 | Surface | Effect |
